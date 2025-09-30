@@ -40,6 +40,11 @@ labels:
   - "traefik.http.middlewares.rate-limit.ratelimit.burst=10"
 ```
 
+ANALOGÍA DE LOS MIDDLEWARES:
+- Badic Auth: Este middleware sirve en el caso del aeropuerto como una autenticación para el pasajero, por ejemplo, el pasajero debe mostrar sus documentos (cc o pasaporte) además del ticket para poder entrar en el aeropuerto y abordar el avión.
+
+- Rate limitn: En la analogía de el aeropuerto. rate-limit viene funcionando como los controles de seguridad para manejar la concurrencia de los pasajeros, si por ejemplo 20 pasajeros quiern abordar al tiempo hay que poner un limite, por ejemplo de a 5 pasajeros.
+
 # Punto 4
 Lo primero es crear una red interna 
 
@@ -50,6 +55,14 @@ y verificamos
 <img width="587" height="157" alt="image" src="https://github.com/user-attachments/assets/ec069bd5-3716-4a9f-a009-0a2555032664" />
 
 <img width="929" height="40" alt="image" src="https://github.com/user-attachments/assets/757f159b-754a-4e30-aaa8-9b021ad9e9b8" />
+
+
+# Pregunta:
+- Como nuestro aeropuerto refleja transparencia, escalabilidad y tolerancia a fallos:
+
+ El aeropuerto muestra transparencia al ofrecer una visibilidad completa del flujo de trafico y el estado de los servicios.
+
+ 
 
 
 
