@@ -16,7 +16,6 @@ Revisamos los logs de las 2 apis
 <img width="1777" height="520" alt="image" src="https://github.com/user-attachments/assets/c48daa57-fab8-4225-9e47-fb8888dadf76" />
 
 # Punto 3
-# Punto 3 - Middlewares
 
 Primero instalamos htpasswd
 `sudo apt-get update` y
@@ -40,4 +39,17 @@ labels:
   - "traefik.http.middlewares.rate-limit.ratelimit.average=5"
   - "traefik.http.middlewares.rate-limit.ratelimit.burst=10"
 ```
+
+# Punto 4
+Lo primero es crear una red interna 
+
+En este caso la nombramos como 'airport-network'
+
+y verificamos
+
+<img width="587" height="157" alt="image" src="https://github.com/user-attachments/assets/ec069bd5-3716-4a9f-a009-0a2555032664" />
+
+<img width="929" height="40" alt="image" src="https://github.com/user-attachments/assets/757f159b-754a-4e30-aaa8-9b021ad9e9b8" />
+
+
 
