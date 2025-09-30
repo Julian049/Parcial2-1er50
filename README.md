@@ -1,3 +1,12 @@
+# Docker Traefik
+
+# Autores
+**Diego Alejandro Gil Otálora** Cod:202222152<br>
+**Julian David Bocanegra Segura** Cod: 202220214  
+Universidad Pedagógica y Tecnológica de Colombia  
+Ingeniería de Sistemas y Computación - Sistemas Distribuidos  
+Tunja, 2025 
+
 # Punto 1
 
 Editamos etc/host
@@ -62,7 +71,11 @@ y verificamos
 
  El aeropuerto muestra transparencia al ofrecer una visibilidad completa del flujo de trafico y el estado de los servicios.
 
+Está diseñado para manejar cargas crecientes de pasajeros de manera eficiente y dinámica, adaptándose automáticamente a los cambios en la infraestructura
+
+Contribuye a la tolerancia a fallos al garantizar la alta disponibilidad del sistema y la resiliencia ante fallos en los componentes
  
+
 
 
 
