@@ -1,0 +1,11 @@
+<p>SALA DE BIENVENIDA</p>
+<p id="display-time">
+    <script>
+        function myFunc()  {
+            var now = new Date();
+            var time = now.getHours() + ":" + now.getMinutes() + ":" + now.getSeconds();
+            document.getElementById('display-time').innerHTML = time;
+        }
+        setInterval(myFunc, 1000);
+    </script>
+</p>
